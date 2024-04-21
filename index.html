@@ -1,60 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Cloud Assignment</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cloud Assignment</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Assignment 2 Question 1</h1>
+        <hr>
+        <h2>Group Members Information</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Reg Number</th>
+                    <th scope="col">Program</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Munashe Mudaura</td>
+                    <td>H200239Z</td>
+                    <td>Software Engineering</td>
+                </tr>
+                <tr>
+                    <td>Mukati Blessing Nhidza</td>
+                    <td>H200073Q</td>
+                    <td>Software Engineering</td>
+                </tr>
+                <tr>
+                    <td>Michael Mazenge</td>
+                    <td>h200210R</td>
+                    <td>Software Engineering</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Question 1 of assignment 2
+
+            Here's how you can leverage your GitHub Student Developer Pack to explore DigitalOcean:
+        </p>
+
+
+        <h3> 1. Researching Digital Ocean and Pricing: </h3> <br>
+
+        <b>DigitalOcean offers $200 credit for one year through the GitHub Student Developer Pack. This credit can be
+            used towards any of their cloud services.</b><br>
+
+        For this website, we used the $4 per month package that offers: <br>
+        <br>
+        <div class="card col-md-3">
+            <div class="card-header">
+                <b style="text-align: center;">$4/</b>mo <br>
+                $0.006/hour
+            </div>
+            <div class="card-body">
+                512 MB/1 computing <br>
+                10 GB SSD Disk <br>
+                500 GB transfer
+            </div>
+        </div>
+
+<br>
+        <h3> 2. Creating an Account and Setting Up a Droplet:</h3>
+        <ul>
+            <li>Sign up for a new DigitalOcean account.</li>
+            <li>During registration, you'll be prompted to verify your GitHub student status.</li>
+            <li>Once verified, your $200 credit will be automatically applied.</li>
         </ul>
-      </div>
+
+         
+
+        <h4>Choosing Ubuntu 22.04 (LTS) Droplet:</h4>
+
+        When creating the Droplet, we selected Ubuntu 22.04 (LTS) from the image selection because: <br>
+        Ubuntu is a widely used, free, and open-source operating system known for its stability and large <br>
+        community support. <br>
+        22.04 (LTS): "LTS" stands for Long Term Support. This version is supported with security updates for at least <br>
+        five years, making it ideal for long-running projects. <br>
+        X64: This refers to the 64-bit architecture, which allows your Droplet to utilize more processing power and <br>
+        memory if needed for your projects. <br>
+        What a Droplet Does: <br>
+<br>
+        A Droplet acts as your own virtual server in the cloud. You can install software, host websites or applications,
+        and manage it remotely through a web interface or command line tools (SSH).
     </div>
-  </nav>
 
-  <div class="container mt-4">
-    <h2>Group Members Information</h2>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col">Reg Number</th>
-          <th scope="col">Program</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Munashe Mudaura</td>
-          <td>H200239Z</td>
-          <td>Software Engineering</td>
-        </tr>
-        <tr>
-          <td>Mukati Blessing Nhidza</td>
-          <td>H200073Q</td>
-          <td>Software Engineering</td>
-        </tr>
-        <tr>
-          <td>Michael Mazenge</td>
-          <td>h200210R</td>
-          <td>Software Engineering</td>
-        </tr>
-        </tbody>
-    </table>
-  Question 1 of assignment 2
-
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b4Fxq3LFHMDwDSLJHeYEMCxYwCpEOjMHwn5v8/W9DPEa8fLw7qVCqUsw1fN5jVWx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b4Fxq3LFHMDwDSLJHeYEMCxYwCpEOjMHwn5v8/W9DPEa8fLw7qVCqUsw1fN5jVWx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
